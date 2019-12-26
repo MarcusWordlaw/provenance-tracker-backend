@@ -4,7 +4,8 @@ class Api::V1::DocumentsController < ApplicationController
   # GET /documents
   # GET /documents.json
   def index
-    @documents = Document.all
+    render json: {status: "Its working"}
+    # @documents = Document.all
   end
 
   # GET /documents/1
