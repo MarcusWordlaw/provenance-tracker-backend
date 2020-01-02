@@ -2,10 +2,10 @@
 
 one:
   content: MyString
-  address: MyString
-  hashedmessages: MyString
+  hashedmessage: MyString
+  user_id: 1
 
 two:
   content: MyString
-  address: MyString
-  hashedmessages: MyString
+  hashedmessage: MyString
+  user_id: 1

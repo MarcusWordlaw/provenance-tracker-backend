@@ -4,14 +4,13 @@ class Api::V1::DocumentsController < ApplicationController
   # GET /documents
   # GET /documents.json
   def index
-    #Delete render json line
-    # render json: {status: "Its working"}
-    @documents = Document.all
+    render json: Document.all
   end
 
   # GET /documents/1
   # GET /documents/1.json
   def show
+    render json: Document.find(params[:id])
   end
 
   # GET /documents/new
